@@ -1,0 +1,21 @@
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaNegocio\obj\Debug\CapaNegocio.pdb

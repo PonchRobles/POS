@@ -1,0 +1,17 @@
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.pdb

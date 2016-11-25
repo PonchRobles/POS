@@ -1,0 +1,45 @@
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe.config
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.Properties.Resources.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csproj.GenerateResource.Cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe.config
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.Properties.Resources.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csproj.GenerateResource.Cache
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe.config
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe.config
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.exe
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\ProyectoPuntoDeVenta.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaPresentacion.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaNegocio.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\bin\Debug\CapaDatos.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csprojResolveAssemblyReference.cache
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.Properties.Resources.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\ProyectoPuntoDeVenta\obj\Debug\ProyectoPuntoDeVenta.csproj.GenerateResource.Cache

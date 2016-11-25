@@ -1,0 +1,47 @@
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Frmarticulo.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPresentacion.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCategoria_Articulo.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Poncho\documents\visual studio 2015\Projects\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Frmarticulo.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPresentacion.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProvedor.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCategoria_Articulo.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Poncho\Repos\POS_POJECT_SCHOOL\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Frmarticulo.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPresentacion.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProvedor.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCategoria_Articulo.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
