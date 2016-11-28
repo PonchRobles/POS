@@ -16,7 +16,7 @@ namespace ProyectoPuntoDeVenta
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frmarticulo());
+            Application.Run(new Cliente());
         }
     }
 }
