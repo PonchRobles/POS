@@ -210,14 +210,14 @@ namespace CapaDatos
                 ParTipo_Documento.SqlDbType = SqlDbType.VarChar;
                 ParTipo_Documento.Size = 20;
                 ParTipo_Documento.Value = Proveedor._Tipo_de_Documento;
-                SqlCmd.Parameters.Add(ParSector_Comercial);
+                SqlCmd.Parameters.Add(ParTipo_Documento);
 
                 SqlParameter ParNum_Documento = new SqlParameter();
                 ParNum_Documento.ParameterName = "@num_documento";
                 ParNum_Documento.SqlDbType = SqlDbType.VarChar;
                 ParNum_Documento.Size = 20;
                 ParNum_Documento.Value = Proveedor._Num_Documento;
-                SqlCmd.Parameters.Add(ParSector_Comercial);
+                SqlCmd.Parameters.Add(ParNum_Documento);
 
 
                 SqlParameter ParDireccion = new SqlParameter();
@@ -276,13 +276,15 @@ namespace CapaDatos
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
                 SqlCmd.CommandText = "speditar_proveedor";
+
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
-                SqlParameter ParIdprovedor = new SqlParameter();
-                ParIdprovedor.ParameterName = "@idproveedor";
-                ParIdprovedor.SqlDbType = SqlDbType.Int;
-                ParIdprovedor.Value = Proveedor.IdProveedor;
-                SqlCmd.Parameters.Add(ParIdprovedor);
+                SqlParameter ParIdproveedor = new SqlParameter();
+                ParIdproveedor.ParameterName = "@idproveedor";
+                ParIdproveedor.SqlDbType = SqlDbType.Int;
+               // ParIdproveedor.Direction = ParameterDirection.Output;
+                ParIdproveedor.Value = Proveedor.IdProveedor;
+                SqlCmd.Parameters.Add(ParIdproveedor);
 
                 SqlParameter ParRazon_Social = new SqlParameter();
                 ParRazon_Social.ParameterName = "@razon_social";
@@ -303,14 +305,14 @@ namespace CapaDatos
                 ParTipo_Documento.SqlDbType = SqlDbType.VarChar;
                 ParTipo_Documento.Size = 20;
                 ParTipo_Documento.Value = Proveedor._Tipo_de_Documento;
-                SqlCmd.Parameters.Add(ParSector_Comercial);
+                SqlCmd.Parameters.Add(ParTipo_Documento);
 
                 SqlParameter ParNum_Documento = new SqlParameter();
                 ParNum_Documento.ParameterName = "@num_documento";
                 ParNum_Documento.SqlDbType = SqlDbType.VarChar;
                 ParNum_Documento.Size = 20;
                 ParNum_Documento.Value = Proveedor._Num_Documento;
-                SqlCmd.Parameters.Add(ParSector_Comercial);
+                SqlCmd.Parameters.Add(ParNum_Documento);
 
 
                 SqlParameter ParDireccion = new SqlParameter();
@@ -371,7 +373,7 @@ namespace CapaDatos
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter ParIdproveedor = new SqlParameter();
-                ParIdproveedor.ParameterName = "@idcategoria";
+                ParIdproveedor.ParameterName = "@idproveedor";
                 ParIdproveedor.SqlDbType = SqlDbType.Int;
                 ParIdproveedor.Value = Proveedor.IdProveedor;
                 SqlCmd.Parameters.Add(ParIdproveedor);

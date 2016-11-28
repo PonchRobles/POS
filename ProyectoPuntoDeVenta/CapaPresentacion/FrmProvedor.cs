@@ -260,7 +260,7 @@ namespace CapaPresentacion
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (this.txtIdproveedor.Text.Equals(""))
+            if (!this.txtIdproveedor.Text.Equals(""))
             {
                 this.IsEditar = true;
                 this.Botones();
@@ -270,6 +270,7 @@ namespace CapaPresentacion
             else
             {
                 this.MensajeError("Debe seleccionar primero el registro para modificar");
+
 
             }
         }
@@ -297,7 +298,7 @@ namespace CapaPresentacion
         {
             this.txtIdproveedor.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["idproveedor"].Value);
             this.txtRazonsocial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["razon_social"].Value);
-            this.cbSectorComercial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["sector_comercial"].Value);
+            this.cbSectorComercial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["sector_comerciall"].Value);
             this.cbTipo_Documento.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["tipo_documento"].Value);
             this.txtNum_Documento.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["num_documento"].Value);
             this.txtDireccion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["direccion"].Value);
@@ -305,6 +306,24 @@ namespace CapaPresentacion
             this.txtEmail.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["email"].Value);
             this.txtUrl.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["url"].Value);
             this.tabControl1.SelectedIndex = 1;
+        }
+
+        private void dataListado_DoubleClick(object sender, EventArgs e)
+        {
+            //this.txtIdproveedor.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["idproveedor"].Value);
+            //this.txtRazonsocial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["razon_social"].Value);
+            //this.cbSectorComercial.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["sector_comerciall"].Value);
+            //this.cbTipo_Documento.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["tipo_documento"].Value);
+            //this.txtNum_Documento.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["num_documento"].Value);
+            //this.txtDireccion.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["direccion"].Value);
+            //this.txtTelefono.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["telefono"].Value);
+            //this.txtEmail.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["email"].Value);
+            //this.txtUrl.Text = Convert.ToString(this.dataListado.CurrentRow.Cells["url"].Value);
+        }
+
+        private void txtRazonsocial_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 
