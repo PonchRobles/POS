@@ -174,7 +174,7 @@ namespace CapaDatos
 
                 SqlParameter ParFecha_Nacimiento = new SqlParameter();
                 ParFecha_Nacimiento.ParameterName = "@fecha_naci";
-                ParFecha_Nacimiento.SqlDbType = SqlDbType.VarChar;
+                ParFecha_Nacimiento.SqlDbType = SqlDbType.DateTime;
                 ParFecha_Nacimiento.Size = 40;
                 ParFecha_Nacimiento.Value = Trabajador.Fecha_Nacimiento;
                 SqlCmd.Parameters.Add(ParFecha_Nacimiento);
@@ -288,8 +288,8 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(ParSexo);
 
                 SqlParameter ParFecha_Nacimiento = new SqlParameter();
-                ParFecha_Nacimiento.ParameterName = "@fecha_naci";
-                ParFecha_Nacimiento.SqlDbType = SqlDbType.VarChar;
+                ParFecha_Nacimiento.ParameterName = "@fecha_nacimiento";
+                ParFecha_Nacimiento.SqlDbType = SqlDbType.DateTime;
                 ParFecha_Nacimiento.Size = 40;
                 ParFecha_Nacimiento.Value = Trabajador.Fecha_Nacimiento;
                 SqlCmd.Parameters.Add(ParFecha_Nacimiento);
@@ -483,6 +483,42 @@ namespace CapaDatos
             return DtResultado;
 
         }
+        public DataTable Login(DTrabajador Trabajador)
+        {
+            DataTable DtResultado = new DataTable("trabajador");
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon.ConnectionString = Conexion.Cn;
+                SqlCommand SqlCmd = new SqlCommand();
+                SqlCmd.Connection = SqlCon;
+                SqlCmd.CommandText = "splogin";
+                SqlCmd.CommandType = CommandType.StoredProcedure;
 
+                SqlParameter ParUsuario = new SqlParameter();
+                ParUsuario.ParameterName = "@usuario";
+                ParUsuario.SqlDbType = SqlDbType.VarChar;
+                ParUsuario.Size = 20;
+                ParUsuario.Value = Trabajador.Usuario;
+                SqlCmd.Parameters.Add(ParUsuario);
+
+                SqlParameter ParPassword = new SqlParameter();
+                ParPassword.ParameterName = "@password";
+                ParPassword.SqlDbType = SqlDbType.VarChar;
+                ParPassword.Size = 50;
+                ParPassword.Value = Trabajador.Password;
+                SqlCmd.Parameters.Add(ParPassword);
+
+                SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);
+                SqlDat.Fill(DtResultado);
+
+            }
+            catch (Exception ex)
+            {
+                DtResultado = null;
+            }
+            return DtResultado;
+
+        }
     }
 }
