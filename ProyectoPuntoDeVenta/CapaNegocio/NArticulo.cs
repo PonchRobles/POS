@@ -64,6 +64,10 @@ namespace CapaNegocio
             return Obj.BuscarNombre(Obj);
 
         }
+        public static DataTable StockArticulos()
+        {
 
+            return new DArticulo().StockArticulos();
+        }
     }
 }

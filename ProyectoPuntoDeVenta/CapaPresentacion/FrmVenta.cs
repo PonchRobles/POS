@@ -481,6 +481,13 @@ namespace CapaPresentacion
             FrmVistaArticulo_Venta vista = new FrmVistaArticulo_Venta();
             vista.ShowDialog();
         }
+
+        private void btnComprobante_Click(object sender, EventArgs e)
+        {
+            FrmReporteFactura frm = new FrmReporteFactura();
+            frm.Idventa = Convert.ToInt32(dataListado.CurrentRow.Cells["idventa"].Value);
+            frm.ShowDialog();
+        }
     }
 }
 
