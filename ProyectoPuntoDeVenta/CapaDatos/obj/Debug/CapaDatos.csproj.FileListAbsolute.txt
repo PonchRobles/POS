@@ -20,3 +20,4 @@ C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
