@@ -64,7 +64,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LIMzH6gZhnENFtf1vbYZwULuWwh0uk59i8PvCrRBSvg=</dsig:DigestValue>
+        <dsig:DigestValue>I2ewwPHukI6z9Sfi15tGPMQ9+pZm5z987sWVSkFBwbU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -76,19 +76,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZWTdT4xae8Ot0KmJXj/AEkA5YEp5mzmt556RpKvAIT4=</dsig:DigestValue>
+        <dsig:DigestValue>5N8T9a8W4O2S66CRpTaoTQwX324gKqgmW6jU2LegNx4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="370688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="369152">
       <assemblyIdentity name="CapaPresentacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ov5gPqQLup/Gz2Ea3l07yI52lR6+KO67aWsLIbnlwXY=</dsig:DigestValue>
+        <dsig:DigestValue>RG2EY0bF4G8rWLX4gH5aL4VxPqxuuj3/UJwIrOuUhNc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -244,7 +256,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nFUJWdUYfzaD2ZdX6LHl2bMGFSDKkAxC38zmx+o9T1k=</dsig:DigestValue>
+        <dsig:DigestValue>8tN0Dz9Y4C9vMMWxviLij4UC3SwYEQD5l3ppYK0Fooo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
+using MetroFramework.Forms;
+using MetroFramework;
 
 namespace CapaPresentacion
 {
-    public partial class FrmCategoria : Form
+    public partial class FrmCategoria : MetroForm
     {
 
         private bool isNuevo = false;
@@ -203,7 +205,7 @@ namespace CapaPresentacion
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (this.txtIdcategoria.Text.Equals(""))
+            if (this.txtIdcategoria.Text.Equals(" "))
             {
                 this.isEditar = true;
                 this.Botones();
@@ -212,7 +214,8 @@ namespace CapaPresentacion
             }
             else
             {
-                this.MensajeError("Debe seleccionar primero el registro para modificar");
+               // this.MensajeError("Debe seleccionar primero el registro para modificar");
+                MetroMessageBox.Show(this, "Debe seleccionar primero el registro para modificar", "Sistema de ventas", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
 
             }
         }

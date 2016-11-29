@@ -7,14 +7,14 @@
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ProyectoPuntoDeVenta.exe.manifest" size="15051">
+    <dependentAssembly dependencyType="install" codebase="ProyectoPuntoDeVenta.exe.manifest" size="15732">
       <assemblyIdentity name="ProyectoPuntoDeVenta.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>k/SyiDHI9+NyXKtlyc6MdwFqtFsN7xZAdgurpHGgUFI=</dsig:DigestValue>
+        <dsig:DigestValue>yiRpzexKk2OXpF/+iAp417qGS3mJp9qKYaL8WBm0YP8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -30,6 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtFechaNac = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbSexo = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -57,17 +61,12 @@
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
             this.chkEliminar = new System.Windows.Forms.CheckBox();
-            this.btnImprimir = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbSexo = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.dtFechaNac = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -107,6 +106,44 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Clientes";
+            // 
+            // dtFechaNac
+            // 
+            this.dtFechaNac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtFechaNac.Location = new System.Drawing.Point(392, 140);
+            this.dtFechaNac.Name = "dtFechaNac";
+            this.dtFechaNac.Size = new System.Drawing.Size(200, 20);
+            this.dtFechaNac.TabIndex = 26;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(279, 140);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(106, 13);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "Fecha de nacimiento";
+            // 
+            // cbSexo
+            // 
+            this.cbSexo.FormattingEnabled = true;
+            this.cbSexo.Items.AddRange(new object[] {
+            "M",
+            "F"});
+            this.cbSexo.Location = new System.Drawing.Point(139, 132);
+            this.cbSexo.Name = "cbSexo";
+            this.cbSexo.Size = new System.Drawing.Size(121, 21);
+            this.cbSexo.TabIndex = 24;
+            this.cbSexo.Text = "F";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(16, 140);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Sexo";
             // 
             // txtApellidos
             // 
@@ -303,7 +340,6 @@
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.lblTotal);
             this.tabPage1.Controls.Add(this.chkEliminar);
-            this.tabPage1.Controls.Add(this.btnImprimir);
             this.tabPage1.Controls.Add(this.btnEliminar);
             this.tabPage1.Controls.Add(this.btnBuscar);
             this.tabPage1.Controls.Add(this.txtBuscar);
@@ -371,15 +407,6 @@
             this.chkEliminar.UseVisualStyleBackColor = true;
             this.chkEliminar.CheckedChanged += new System.EventHandler(this.chkEliminar_CheckedChanged);
             // 
-            // btnImprimir
-            // 
-            this.btnImprimir.Location = new System.Drawing.Point(471, 23);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(75, 23);
-            this.btnImprimir.TabIndex = 4;
-            this.btnImprimir.Text = "&Imprimir";
-            this.btnImprimir.UseVisualStyleBackColor = true;
-            // 
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(390, 22);
@@ -420,44 +447,6 @@
             // errorIcono
             // 
             this.errorIcono.ContainerControl = this;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 140);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "Sexo";
-            // 
-            // cbSexo
-            // 
-            this.cbSexo.FormattingEnabled = true;
-            this.cbSexo.Items.AddRange(new object[] {
-            "M",
-            "F"});
-            this.cbSexo.Location = new System.Drawing.Point(139, 132);
-            this.cbSexo.Name = "cbSexo";
-            this.cbSexo.Size = new System.Drawing.Size(121, 21);
-            this.cbSexo.TabIndex = 24;
-            this.cbSexo.Text = "F";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(279, 140);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(106, 13);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "Fecha de nacimiento";
-            // 
-            // dtFechaNac
-            // 
-            this.dtFechaNac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFechaNac.Location = new System.Drawing.Point(392, 140);
-            this.dtFechaNac.Name = "dtFechaNac";
-            this.dtFechaNac.Size = new System.Drawing.Size(200, 20);
-            this.dtFechaNac.TabIndex = 26;
             // 
             // Cliente
             // 
@@ -512,7 +501,6 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.CheckBox chkEliminar;
-        private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;

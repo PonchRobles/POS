@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
+using MetroFramework.Forms;
+using MetroFramework;
 
 namespace CapaPresentacion
 {
-    public partial class Frmarticulo : Form
+    public partial class Frmarticulo : MetroForm
     {
         private bool isNuevo = false;
         private bool isEditar = false;
@@ -49,13 +51,15 @@ namespace CapaPresentacion
 
         private void MensajeOk(string mensaje)
         {
-            MessageBox.Show(mensaje, "Sistema de ventas", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+           MessageBox.Show(mensaje, "Sistema de ventas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MetroMessageBox.Show("Hola", "Sistema de ventas", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+           // MetroMessageBox.Show(this, "Mensaje de confirmacion", "Sistema de ventas", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
         }
         //Mostrar mensaje de error
         private void MensajeError(string mensaje)
         {
             MessageBox.Show(mensaje, "Sistema de ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //MetroMessageBox.Show(this, "Mensaje de confirmacion", "Sistema de ventas", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
 
         }
         //Limpiar todos los controles del formulario
@@ -227,7 +231,8 @@ namespace CapaPresentacion
                     {
                         if (this.isNuevo)
                         {
-                            this.MensajeOk("Se inserto de forma chida el registro");
+                          //  this.MensajeOk("Se inserto de forma chida el registro");
+                            MetroMessageBox.Show(this, "Se inserto de forma chida el registro", "Sistema de ventas", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                         }
                         else
                         {

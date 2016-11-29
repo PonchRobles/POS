@@ -18,6 +18,5 @@ C:\Users\Alfonso\Desktop\POS_POJECT_SCHOOL\POS\ProyectoPuntoDeVenta\CapaDatos\ob
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll.config
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.dll
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaDatos\obj\Debug\CapaDatos.pdb
