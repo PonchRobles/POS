@@ -81,14 +81,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="448000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="446464">
       <assemblyIdentity name="CapaPresentacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eE9Dv1XeoH0+zHva+DpXxJqr1KKEWL6Wzt+ke5IatqU=</dsig:DigestValue>
+        <dsig:DigestValue>jN0k7NrXdFAlYKk/BNIA4vZBKbYKRM9QAXHLhNzgaZ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -244,7 +244,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CqYfC+4BAISMKyrce54zhfA5MZpM+diKAqW0MqWW4YE=</dsig:DigestValue>
+        <dsig:DigestValue>788mH7PBl+f5HZf39wP/Dhx+jR6Pg/orlJH++3KTCnw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

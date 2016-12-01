@@ -58,9 +58,6 @@
             this.txtIGV = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtIdArticulo = new System.Windows.Forms.TextBox();
-            this.txtCoRelativo = new System.Windows.Forms.TextBox();
-            this.txtSerie = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.cbComprobante = new System.Windows.Forms.ComboBox();
             this.dtFecha = new System.Windows.Forms.DateTimePicker();
             this.Fecha = new System.Windows.Forms.Label();
@@ -90,6 +87,9 @@
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtSerie = new System.Windows.Forms.TextBox();
+            this.txtCoRelativo = new System.Windows.Forms.TextBox();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -398,30 +398,6 @@
             this.txtIdArticulo.Size = new System.Drawing.Size(32, 20);
             this.txtIdArticulo.TabIndex = 31;
             // 
-            // txtCoRelativo
-            // 
-            this.txtCoRelativo.Location = new System.Drawing.Point(165, 111);
-            this.txtCoRelativo.Name = "txtCoRelativo";
-            this.txtCoRelativo.Size = new System.Drawing.Size(100, 20);
-            this.txtCoRelativo.TabIndex = 26;
-            // 
-            // txtSerie
-            // 
-            this.txtSerie.Location = new System.Drawing.Point(58, 112);
-            this.txtSerie.Name = "txtSerie";
-            this.txtSerie.Size = new System.Drawing.Size(94, 20);
-            this.txtSerie.TabIndex = 25;
-            this.txtSerie.TextChanged += new System.EventHandler(this.txtSerie_TextChanged);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(8, 114);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 13);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "Numero";
-            // 
             // cbComprobante
             // 
             this.cbComprobante.FormattingEnabled = true;
@@ -694,6 +670,33 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Ventas";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(8, 114);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 13);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Numero";
+            this.label8.Visible = false;
+            // 
+            // txtSerie
+            // 
+            this.txtSerie.Location = new System.Drawing.Point(58, 112);
+            this.txtSerie.Name = "txtSerie";
+            this.txtSerie.Size = new System.Drawing.Size(94, 20);
+            this.txtSerie.TabIndex = 25;
+            this.txtSerie.Visible = false;
+            this.txtSerie.TextChanged += new System.EventHandler(this.txtSerie_TextChanged);
+            // 
+            // txtCoRelativo
+            // 
+            this.txtCoRelativo.Location = new System.Drawing.Point(165, 111);
+            this.txtCoRelativo.Name = "txtCoRelativo";
+            this.txtCoRelativo.Size = new System.Drawing.Size(100, 20);
+            this.txtCoRelativo.TabIndex = 26;
+            this.txtCoRelativo.Visible = false;
+            // 
             // FrmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -749,9 +752,6 @@
         private System.Windows.Forms.TextBox txtIGV;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtIdArticulo;
-        private System.Windows.Forms.TextBox txtCoRelativo;
-        private System.Windows.Forms.TextBox txtSerie;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cbComprobante;
         private System.Windows.Forms.DateTimePicker dtFecha;
         private System.Windows.Forms.Label Fecha;
@@ -784,5 +784,8 @@
         private System.Windows.Forms.RadioButton rdTarjetaDeCredito;
         private System.Windows.Forms.RadioButton rdEfectivo;
         private System.Windows.Forms.Button btnCotizar;
+        private System.Windows.Forms.TextBox txtCoRelativo;
+        private System.Windows.Forms.TextBox txtSerie;
+        private System.Windows.Forms.Label label8;
     }
 }
