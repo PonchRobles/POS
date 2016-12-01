@@ -135,37 +135,37 @@ namespace CapaPresentacion
                 }
                 else
                 {
-                    if (this.isNuevo)
+                    if (isNuevo)
                     {
                         rpta = NPresentacion.Insertar(this.txtNombre.Text.Trim().ToUpper(),
-                            this.txtDescripcion.Text.Trim());
+                            txtDescripcion.Text.Trim());
                     }
                     else
                     {
                         rpta = NPresentacion.Editar(Convert.ToInt32(this.txtIdpresentacion.Text), this.txtNombre.Text.Trim().ToUpper(),
-                           this.txtDescripcion.Text.Trim());
+                           txtDescripcion.Text.Trim());
                     }
                     if (rpta.Equals("OK"))
                     {
-                        if (this.isNuevo)
+                        if (isNuevo)
                         {
-                            this.MensajeOk("Se inserto de forma chida el registro");
+                            MensajeOk("Se inserto de forma chida el registro");
                         }
                         else
                         {
-                            this.MensajeOk("Se actualizo de forma chida el registro");
+                            MensajeOk("Se actualizo de forma chida el registro");
                         }
                     }
                     else
                     {
-                        this.MensajeError(rpta);
+                        MensajeError(rpta);
 
                     }
-                    this.isNuevo = false;
-                    this.isEditar = false;
-                    this.Botones();
-                    this.limpiar();
-                    this.Mostrar();
+                    isNuevo = false;
+                    isEditar = false;
+                    Botones();
+                    limpiar();
+                    Mostrar();
                 }
             }
             catch (Exception ex)

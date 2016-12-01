@@ -89,3 +89,4 @@ C:\Projects\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\RdlCompile.cache
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\RdlCompile.compiled
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 C:\Projects\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Projects\POS\ProyectoPuntoDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCotizar.resources

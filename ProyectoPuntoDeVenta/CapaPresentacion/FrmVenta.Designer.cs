@@ -36,6 +36,9 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.rdTarjetaDeCredito = new System.Windows.Forms.RadioButton();
+            this.rdEfectivo = new System.Windows.Forms.RadioButton();
             this.lblTotalPagado = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -73,6 +76,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnCotizar = new System.Windows.Forms.Button();
             this.btnComprobante = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.dtFecha_Fin = new System.Windows.Forms.DateTimePicker();
@@ -81,7 +85,6 @@
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.lblTotal = new System.Windows.Forms.Label();
             this.chkEliminar = new System.Windows.Forms.CheckBox();
-            this.btnImprimir = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
@@ -152,6 +155,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.rdTarjetaDeCredito);
+            this.groupBox1.Controls.Add(this.rdEfectivo);
             this.groupBox1.Controls.Add(this.lblTotalPagado);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.groupBox2);
@@ -180,6 +186,37 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ventas";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(531, 99);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(78, 13);
+            this.label16.TabIndex = 40;
+            this.label16.Text = "Forma de pago";
+            // 
+            // rdTarjetaDeCredito
+            // 
+            this.rdTarjetaDeCredito.AutoSize = true;
+            this.rdTarjetaDeCredito.Location = new System.Drawing.Point(531, 141);
+            this.rdTarjetaDeCredito.Name = "rdTarjetaDeCredito";
+            this.rdTarjetaDeCredito.Size = new System.Drawing.Size(108, 17);
+            this.rdTarjetaDeCredito.TabIndex = 39;
+            this.rdTarjetaDeCredito.TabStop = true;
+            this.rdTarjetaDeCredito.Text = "Tarjeta de credito";
+            this.rdTarjetaDeCredito.UseVisualStyleBackColor = true;
+            // 
+            // rdEfectivo
+            // 
+            this.rdEfectivo.AutoSize = true;
+            this.rdEfectivo.Location = new System.Drawing.Point(531, 118);
+            this.rdEfectivo.Name = "rdEfectivo";
+            this.rdEfectivo.Size = new System.Drawing.Size(64, 17);
+            this.rdEfectivo.TabIndex = 38;
+            this.rdEfectivo.TabStop = true;
+            this.rdEfectivo.Text = "Efectivo";
+            this.rdEfectivo.UseVisualStyleBackColor = true;
             // 
             // lblTotalPagado
             // 
@@ -348,15 +385,15 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(292, 118);
+            this.label10.Location = new System.Drawing.Point(311, 114);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(25, 13);
+            this.label10.Size = new System.Drawing.Size(21, 13);
             this.label10.TabIndex = 27;
-            this.label10.Text = "IGV";
+            this.label10.Text = "iva";
             // 
             // txtIdArticulo
             // 
-            this.txtIdArticulo.Location = new System.Drawing.Point(33, 138);
+            this.txtIdArticulo.Location = new System.Drawing.Point(17, 141);
             this.txtIdArticulo.Name = "txtIdArticulo";
             this.txtIdArticulo.Size = new System.Drawing.Size(32, 20);
             this.txtIdArticulo.TabIndex = 31;
@@ -372,8 +409,9 @@
             // 
             this.txtSerie.Location = new System.Drawing.Point(58, 112);
             this.txtSerie.Name = "txtSerie";
-            this.txtSerie.Size = new System.Drawing.Size(100, 20);
+            this.txtSerie.Size = new System.Drawing.Size(94, 20);
             this.txtSerie.TabIndex = 25;
+            this.txtSerie.TextChanged += new System.EventHandler(this.txtSerie_TextChanged);
             // 
             // label8
             // 
@@ -391,7 +429,8 @@
             "TICKET",
             "BOLETA",
             "FACTURA",
-            "GUIA DE REMISION"});
+            "GUIA DE REMISION",
+            "COTIZACION"});
             this.cbComprobante.Location = new System.Drawing.Point(93, 66);
             this.cbComprobante.Name = "cbComprobante";
             this.cbComprobante.Size = new System.Drawing.Size(121, 21);
@@ -435,22 +474,22 @@
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(304, 31);
+            this.txtCliente.Location = new System.Drawing.Point(273, 31);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(32, 20);
+            this.txtCliente.Size = new System.Drawing.Size(227, 20);
             this.txtCliente.TabIndex = 16;
             // 
             // txtIdCliente
             // 
-            this.txtIdCliente.Location = new System.Drawing.Point(304, 60);
+            this.txtIdCliente.Location = new System.Drawing.Point(250, 60);
             this.txtIdCliente.Name = "txtIdCliente";
-            this.txtIdCliente.Size = new System.Drawing.Size(100, 20);
+            this.txtIdCliente.Size = new System.Drawing.Size(154, 20);
             this.txtIdCliente.TabIndex = 15;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 74);
+            this.label6.Location = new System.Drawing.Point(8, 69);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 13);
             this.label6.TabIndex = 10;
@@ -490,7 +529,7 @@
             // 
             this.txtIdVenta.Location = new System.Drawing.Point(66, 24);
             this.txtIdVenta.Name = "txtIdVenta";
-            this.txtIdVenta.Size = new System.Drawing.Size(100, 20);
+            this.txtIdVenta.Size = new System.Drawing.Size(27, 20);
             this.txtIdVenta.TabIndex = 5;
             // 
             // label3
@@ -498,15 +537,15 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(7, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 13);
+            this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Codigo";
+            this.label3.Text = "N.Venta";
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(10, 37);
+            this.tabControl1.Location = new System.Drawing.Point(17, 37);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(953, 446);
@@ -514,6 +553,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnCotizar);
             this.tabPage1.Controls.Add(this.btnComprobante);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.dtFecha_Fin);
@@ -521,7 +561,6 @@
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.lblTotal);
             this.tabPage1.Controls.Add(this.chkEliminar);
-            this.tabPage1.Controls.Add(this.btnImprimir);
             this.tabPage1.Controls.Add(this.btnEliminar);
             this.tabPage1.Controls.Add(this.btnBuscar);
             this.tabPage1.Controls.Add(this.label2);
@@ -533,13 +572,23 @@
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // btnCotizar
+            // 
+            this.btnCotizar.Location = new System.Drawing.Point(741, 19);
+            this.btnCotizar.Name = "btnCotizar";
+            this.btnCotizar.Size = new System.Drawing.Size(75, 23);
+            this.btnCotizar.TabIndex = 12;
+            this.btnCotizar.Text = "&Cotizar";
+            this.btnCotizar.UseVisualStyleBackColor = true;
+            this.btnCotizar.Click += new System.EventHandler(this.btnCotizar_Click);
+            // 
             // btnComprobante
             // 
             this.btnComprobante.Location = new System.Drawing.Point(660, 19);
             this.btnComprobante.Name = "btnComprobante";
             this.btnComprobante.Size = new System.Drawing.Size(75, 23);
             this.btnComprobante.TabIndex = 11;
-            this.btnComprobante.Text = "&Comprobante";
+            this.btnComprobante.Text = "&Impimir";
             this.btnComprobante.UseVisualStyleBackColor = true;
             this.btnComprobante.Click += new System.EventHandler(this.btnComprobante_Click);
             // 
@@ -611,15 +660,6 @@
             this.chkEliminar.Text = "Eliminar";
             this.chkEliminar.UseVisualStyleBackColor = true;
             this.chkEliminar.CheckedChanged += new System.EventHandler(this.chkEliminar_CheckedChanged);
-            // 
-            // btnImprimir
-            // 
-            this.btnImprimir.Location = new System.Drawing.Point(569, 20);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(75, 23);
-            this.btnImprimir.TabIndex = 4;
-            this.btnImprimir.Text = "&Imprimir";
-            this.btnImprimir.UseVisualStyleBackColor = true;
             // 
             // btnBuscar
             // 
@@ -735,11 +775,14 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn Eliminar;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.CheckBox chkEliminar;
-        private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ErrorProvider errorIcono;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolTip ttMensaje;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.RadioButton rdTarjetaDeCredito;
+        private System.Windows.Forms.RadioButton rdEfectivo;
+        private System.Windows.Forms.Button btnCotizar;
     }
 }

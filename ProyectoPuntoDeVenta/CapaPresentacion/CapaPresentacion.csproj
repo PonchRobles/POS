@@ -158,6 +158,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\FrmCotizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmCotizar.Designer.cs">
+      <DependentUpon>FrmCotizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\frmReporteDeArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmCotizar.resx">
+      <DependentUpon>FrmCotizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\frmReporteDeArticulos.resx">
       <DependentUpon>frmReporteDeArticulos.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +247,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\rptArticulos.rdlc" />
     <EmbeddedResource Include="Reportes\rptComprobanteFactura.rdlc" />
+    <EmbeddedResource Include="Reportes\rptCotizar.rdlc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

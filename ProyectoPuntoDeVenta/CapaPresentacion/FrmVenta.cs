@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
+using System.Data.SqlClient;
 
 namespace CapaPresentacion
 {
     public partial class FrmVenta : Form
     {
+        static int billno = 0000;
+
         private bool IsNuevo = false;
         public int IdTrabajador;
         private DataTable dtDetalle;
@@ -191,6 +194,14 @@ namespace CapaPresentacion
         }
         private void FrmVenta_Load(object sender, EventArgs e)
         {
+           
+
+
+
+
+
+            billno = billno + 1;
+            txtSerie.Text = billno.ToString();
             //Para ubicar al formulario en la parte superior del contenedor
             this.Top = 0;
             this.Left = 0;
@@ -341,7 +352,7 @@ namespace CapaPresentacion
                 //La variable que almacena si se inserto 
                 //o se modifico la tabla
                 string Rpta = "";
-                if (this.txtIdCliente.Text == string.Empty || this.txtSerie.Text == string.Empty || txtCoRelativo.Text == string.Empty || txtIGV.Text == string.Empty)
+                if (this.txtIdCliente.Text == string.Empty  || txtIGV.Text == string.Empty)
                 {
                     MensajeError("Falta ingresar algunos datos, serán remarcados");
                     errorIcono.SetError(txtCliente, "Seleccione un Proveedor");
@@ -485,6 +496,18 @@ namespace CapaPresentacion
         private void btnComprobante_Click(object sender, EventArgs e)
         {
             FrmReporteFactura frm = new FrmReporteFactura();
+frm.Idventa = Convert.ToInt32(dataListado.CurrentRow.Cells["idventa"].Value);
+            frm.ShowDialog();
+        }
+
+        private void txtSerie_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnCotizar_Click(object sender, EventArgs e)
+        {
+            FrmCotizar frm = new FrmCotizar();
             frm.Idventa = Convert.ToInt32(dataListado.CurrentRow.Cells["idventa"].Value);
             frm.ShowDialog();
         }
